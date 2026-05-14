@@ -3,18 +3,17 @@
   "version": "1.0.0",
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1"
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "@vitejs/plugin-react": "^4.0.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build"
+    "start": "vite",
+    "build": "vite build"
   },
   "engines": {
     "node": "20.x"
-  },
-  "browserslist": {
-    "production": [">0.2%"],
-    "development": ["last 1 chrome version"]
   }
 }
